@@ -1,11 +1,12 @@
 html {
     scroll-behavior: smooth;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
 }
 
 section {
@@ -50,23 +51,15 @@ li a:hover {
 
 
 #paginaA {
-    background: #222222;
+    background: #F5F5F7;
 }
 
 #paginaB {
-    background: #7c7c7c;
+    background: #ffff;
 }
 
 #paginaC {
-    background: #222222;
-}
-
-#paginaD {
-    background: #7c7c7c;
-}
-
-#paginaE {
-    background: #222222;
+    background: #F5F5F7;
 }
 
 
@@ -112,5 +105,41 @@ li a:hover {
 .text1 {
     font-size: 5em;
     margin-top: 1.5em;
-    margin-left: 2.5em;
+    margin-left: 10%;
+}
+
+.li-main {
+  margin-left: 10%;
+  display: grid;
+  grid-template-columns: 22% 22%;
+  padding: 10px;
+}
+
+.li-1 {
+  font-size: 16pt;
+}
+
+.li-2 {
+  font-size: 16pt;
+}
+
+.socials {
+  float: right;
+  margin-right: 10%;
+}
+
+.rights {
+  position: absolute;
+  right: 0;
+  bottom: -289%;
+  left: 0;
+  padding: 1rem;
+  color: black;
+  text-align: center;
+  font-size: 16pt;
+
+}
+
+.footer {
+  margin-top: 250px;
 }
