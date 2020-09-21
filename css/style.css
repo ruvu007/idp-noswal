@@ -17,6 +17,12 @@ section {
 
 /* Navbar */
 
+.logo {
+    width: 10%;
+    height: 10%;
+    margin-left: 1em;
+}
+
 nav {
     float: right;
 }
@@ -54,7 +60,8 @@ li a:hover {
 }
 
 #paginaB {
-    background: #7c7c7c;
+    background: white;
+    height: 1000px;
 }
 
 #paginaC {
@@ -121,7 +128,7 @@ li a:hover {
 /* Overige Homepage css */
 
 .breakline {
-    margin-top: 6em;
+    margin-top: .5em;
     box-shadow: 0em .2em .4em 0em lightgray;
 }
 
@@ -203,6 +210,33 @@ li a:hover {
     border-radius: 2em;
 }
 
+/* Pagina B Css */
+
+.titel4 {
+    font-size: 4.5em;
+    margin-top: 1.5em;
+    margin-left: 6.8em;
+}
+
+.text2 {
+    text-align: center;
+    font-size: 1em;
+}
+
+.text3 {
+    float: left;
+    font-size: 1em;
+}
+
+.box5 {
+    margin-left: 27em;
+    margin-top: 2em;
+}
+
+.phone {
+    margin-left: 37em;
+    overflow: hidden;
+}
 
 /* Pagina C Css */
 
@@ -229,7 +263,7 @@ li a:hover {
 .rights {
     position: absolute;
     right: 0;
-    bottom: -320%;
+    bottom: -350%;
     left: 0;
     padding: 1rem;
     color: black;
